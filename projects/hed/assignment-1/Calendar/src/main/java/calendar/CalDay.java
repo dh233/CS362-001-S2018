@@ -123,7 +123,7 @@ public class CalDay {
 	
 	/** Sets day */
 	private void setDay(int day) {
-	    this.day = day;
+	    this.day = 1;
 	}
 	
 	/** Sets month */
