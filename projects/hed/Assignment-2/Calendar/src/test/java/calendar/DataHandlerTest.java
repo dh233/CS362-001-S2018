@@ -70,7 +70,7 @@ public class DataHandlerTest{
 		 //Construct a new Appointment object with the initial data	 
          Appt appt3 = new Appt(startHour,startMinute ,startDay , startMonth ,startYear ,title,description,emailAddress);
          int[] recurDaysArr={0,1,2,3,4,5,6};
-         appt3.setRecurrence( null, Appt.RECUR_BY_YEARLY, 2, Appt.RECUR_NUMBER_FOREVER);
+         appt3.setRecurrence( null, Appt.RECUR_BY_WEEKLY, 2, Appt.RECUR_NUMBER_FOREVER);
          appt3.setValid();
          dataHandler.saveAppt(appt3);
     // create another appointment
